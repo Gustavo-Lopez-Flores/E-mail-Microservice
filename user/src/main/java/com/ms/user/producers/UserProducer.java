@@ -1,5 +1,6 @@
 package com.ms.user.producers;
 
+import com.ms.user.dtos.EmailDto;
 import com.ms.user.models.UserModel;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Value;
